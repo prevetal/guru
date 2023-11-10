@@ -1,0 +1,105 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 24px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 48px 16px 16px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        width: 37px;
+    }
+
+
+    header .contacts .time
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data .title
+    {
+        font-size: 24px;
+    }
+
+
+    .first_section .data .items
+    {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+    .first_section .form
+    {
+        margin-top: 24px;
+        padding: 24px;
+    }
+
+
+    .first_section .form .title
+    {
+        font-size: 22px;
+
+        white-space: nowrap;
+    }
+
+
+
+    /*----------
+        Quiz
+    ----------*/
+    .quiz .data
+    {
+        padding: 24px 20px;
+    }
+
+
+    .quiz .you_will_get .item
+    {
+        width: calc(50% - 8px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .item
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal_title
+    {
+        font-size: 20px;
+    }
+}

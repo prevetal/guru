@@ -1,0 +1,204 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 28px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 52px 24px 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo .slogan
+    {
+        display: none;
+    }
+
+
+    header .contacts .phone
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .desc
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section:before
+    {
+        top: auto;
+        bottom: 100%;
+        left: -86px;
+
+        width: 418px;
+        height: 277px;
+
+        transform: rotate(-15deg);
+    }
+
+    .first_section:after
+    {
+        top: auto;
+        right: -53px;
+        bottom: -132px;
+
+        width: 1060px;
+        height: 277px;
+
+        transform: rotate(-15deg);
+    }
+
+
+    .first_section .cont
+    {
+        min-height: 0;
+    }
+
+
+    .first_section .data
+    {
+        width: 100%;
+    }
+
+
+    .first_section .data .title
+    {
+        font-size: 35px;
+    }
+
+
+    .first_section .data .items
+    {
+        font-size: 18px;
+    }
+
+    .first_section .data .items > *
+    {
+        padding-left: 32px;
+    }
+
+
+    .first_section .data .items .icon
+    {
+        top: 0;
+        bottom: 0;
+
+        width: 20px;
+        height: 20px;
+        margin: auto 0;
+    }
+
+
+    .first_section .form
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    .first_section .img
+    {
+        display: none;
+    }
+
+
+
+    /*----------
+        Quiz
+    ----------*/
+    .quiz .data
+    {
+        padding: 40px;
+    }
+
+
+    .quiz .you_will_get .title
+    {
+        font-size: 18px;
+    }
+
+
+    .quiz .bg
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo
+    {
+        width: 100%;
+        margin-bottom: 40px;
+
+        text-align: center;
+    }
+
+
+    footer .logo img
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .item
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal_title
+    {
+        font-size: 24px;
+    }
+}

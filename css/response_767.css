@@ -1,0 +1,303 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 26px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 48px 20px 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        width: 42px;
+    }
+
+
+    header .consult_btn
+    {
+        display: none;
+    }
+
+
+    header .contacts .phone
+    {
+        font-size: 18px;
+    }
+
+
+    header .contacts .time
+    {
+        font-size: 13px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .submit_btn
+    {
+        width: 100%;
+
+        justify-content: center;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+    .first_section .data .title
+    {
+        font-size: 29px;
+    }
+
+
+    .first_section .data .items
+    {
+        font-size: 16px;
+    }
+
+
+    .first_section .form
+    {
+        margin-top: 32px;
+        padding: 32px;
+    }
+
+
+    .first_section .form .title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*----------
+        Quiz
+    ----------*/
+    .quiz .data
+    {
+        padding: 32px;
+    }
+
+
+    .quiz .question
+    {
+        font-size: 18px;
+
+        text-align: center;
+    }
+
+
+    .quiz .question .number
+    {
+        font-size: 15px;
+
+        width: 120px;
+        margin: 0 auto 20px;
+    }
+
+    .quiz .question .number + *
+    {
+        width: 100%;
+    }
+
+
+    .quiz .answers .row
+    {
+        margin-left: 0;
+    }
+
+    .quiz .answers .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .quiz .you_will_get .title
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .quiz .you_will_get .item
+    {
+        width: calc(50% - 10px);
+        margin-top: 20px;
+
+        justify-content: center;
+    }
+
+    .quiz .you_will_get .item:last-child
+    {
+        width: 100%;
+    }
+
+
+    .quiz .you_will_get .item .icon img
+    {
+        max-width: 40px;
+        max-height: 40px;
+    }
+
+
+    .quiz .form .submit_btn
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quiz .form .submit_btn .free
+    {
+        margin-top: 4px;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        Portfolio
+    ---------------*/
+    .portfolio
+    {
+        padding: 50px 0;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .row
+    {
+        margin-left: 0;
+    }
+
+    .contacts_info .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .item
+    {
+        display: flex;
+        flex-direction: column;
+
+        width: calc(50% - 10px);
+        margin-left: auto;
+
+        text-align: center;
+    }
+
+    footer .logo + .item
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer .logo + .item + .item
+    {
+        margin-left: 0;
+    }
+
+
+    footer .item .title
+    {
+        font-size: 18px;
+
+        margin-bottom: 10px;
+    }
+
+
+    footer .item .phone
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .item .youtube
+    {
+        justify-content: center;
+    }
+
+
+    footer .btns
+    {
+        margin-top: 20px;
+    }
+
+
+    footer .btns .row
+    {
+        display: block;
+
+        margin-bottom: -16px;
+        margin-left: 0;
+
+        text-align: center;
+    }
+
+    footer .btns .row > *
+    {
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 24px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 22px;
+    }
+}
